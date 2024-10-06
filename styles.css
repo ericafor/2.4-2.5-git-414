@@ -9,7 +9,45 @@
 
 header{
     background: linear-gradient(var(--teal), #fff);
+    display: grid;
+    grid-template-rows: 1fr;
 }
+
+nav{
+
+}
+
+#plan div{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+}
+
+
+#testimonials div{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#about div{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+nav a{
+    text-decoration: none;
+    
+}
+
+nav li{
+    list-style: none;
+
+}
+
 
 h1, h2, h3 {
     font-family: "Molle", cursive;
