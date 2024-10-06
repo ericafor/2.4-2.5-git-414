@@ -379,6 +379,7 @@ footer a{
 		z-index: 2;
 		-webkit-touch-callout: none;
 	  }
+
 	  #menu-toggle label {
 		position: relative;
 		display: block;
@@ -416,7 +417,6 @@ footer a{
 
 h2{
 	margin-top:70px;
-
 }
 	
 }
@@ -470,9 +470,11 @@ h2{
 		position: absolute;
 		top: -100000px;
 	}
+
 	#intro{
 		padding: 0 4rem;
 	}
+
 	#intro h2, #intro p{
 		padding: 0;
 	}
@@ -535,7 +537,7 @@ h2{
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: 1fr;
 	}
-	
+
 
 }
 
@@ -560,6 +562,7 @@ h2{
 	grid-template-columns: repeat(4,1fr);
 	column-gap: .5rem;	
 }
+
 header h1{
 	padding: 0;
 	height: .5rem;
@@ -621,7 +624,6 @@ h1{
 }
 
 header p{
-
 	margin-left: -55px;
 }
 
