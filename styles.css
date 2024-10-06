@@ -1,4 +1,6 @@
-/*Macallan Butler*/
+
+
+/*Elijah Ricaforte*/
 
 /*reset*/
 @import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&family=Montserrat:wght@400;700&display=swap');
@@ -83,11 +85,7 @@ h1,h2,h3{
 h4,p,q,a,small,nav,button,form{
     font-family: 'Montserrat', sans-serif;
 }
-h1{
-	font-size: 3.5rem;
-    margin-left:-70px;
-    margin-top: 30px;
-}
+
 
 h2{
 	font-size: 2.5rem;
@@ -197,12 +195,13 @@ header p{
 	width: 50%;
 }
 #about h4{
-	font-weight: bold;
 	font-size: 1.5rem;
+	font-weight: 575;
+	text-transform: uppercase;
 }
 #about p{
 	margin-top: .5rem;
-	font-weight: 600;
+	
 }
 #about img{
 	height: 6rem;
@@ -341,10 +340,10 @@ footer a{
 	padding: .5rem;
 }
 
+
+/*Small Screen*/
 @media screen and (max-width: 756px){
-	nav {
-		display: none;
-	}
+	
 	#menu-toggle {
 		display: block;
 		position: relative;
@@ -356,6 +355,7 @@ footer a{
 		 -ms-user-select: none;
 			 user-select: none;
 	  }
+
 	  #menu-toggle a {
 		text-decoration: none;
 		color: #232323;
@@ -388,6 +388,7 @@ footer a{
 	  #menu-toggle label span {
 		display: none;
 	  }
+
 	  header ul {
 		position: absolute;
 		width: 300px;
@@ -401,8 +402,27 @@ footer a{
 		-o-transition: left 0.3s ease;
 		transition: left 0.3s ease; 
 	  }
+
+	  
+	  h1{
+		font-size:70px;
+		margin-top:-25px;
+	  }
+
+	  header p{
+		margin-top:10px;
+		margin-left:5px;
+	  }
+
+h2{
+	margin-top:70px;
+
+}
 	
 }
+
+
+/*Medium Screen*/
 
 @media screen and (min-width: 756px){
 	header {
@@ -430,18 +450,22 @@ footer a{
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
+		
 	}
+
 	nav a{
 		text-decoration: none;
 		color: var(--color-black);
 		text-transform: uppercase;
 		font-weight: bold;
-		background-color: var(--color-lightGrey);
+		background-color: var(--color-white);
 		padding: 1rem;
 	}
+
 	nav a:hover{
 		background-color: var(--color-yellow);
 	}
+
 	header label, header input{
 		position: absolute;
 		top: -100000px;
@@ -485,21 +509,39 @@ footer a{
 		width: 50%;
 		align-self: flex-end;
 	}
-	footer{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		text-align: center;
-		background-color: var(--color-light-gray);
-	}
+	
 	footer a, footer p{
 		padding: 2rem;
 		margin: 0;
 	}
 
+	
+	h1{
+		font-size: 3.5rem;
+		margin-left:0px;
+		margin-top: 30px;
+	}
+
+	header p{
+
+	margin-left:0px;
+		margin-top: -15px;
+
+	}
+
+	footer{
+		background-color: var(--color-light-gray);
+		display:grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr;
+	}
+	
+
 }
 
-@media screen and (min-width: 1440px){
+/*Large Screen*/
+
+@media screen and (min-width: 1300px){
 	header {
 		display: grid;
 		grid-template-columns: 1fr 4fr;
@@ -570,7 +612,17 @@ nav a{
 	padding: 4rem 1rem;
 }
 
-footer{
-	background-color: var(--color-light-gray);
+
+
+h1{
+	font-size: 3.5rem;
+	margin-left:-55px;
+	margin-top: 30px;
 }
+
+header p{
+
+	margin-left: -55px;
+}
+
 }
