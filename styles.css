@@ -139,6 +139,7 @@ header p{
 	background-color: var(--color-yellow);
 	padding: 1.5em;
 	margin-top: 1rem;
+	padding-top: 30px;
 }
 #plan section{
 	display: flex;
@@ -370,10 +371,11 @@ footer a{
 		position: relative;
 		text-transform: uppercase;
 		font-weight: bold;
-		margin-top: 20px;
-		text-align: center;
-		z-index: 1;
+		margin-top: -307px;
+		margin-right: -200px;
+		padding-left: 400px;
 	}
+
 	
 	#toggle {
 		display: block;
@@ -388,8 +390,10 @@ footer a{
 		cursor: pointer;
 		font-size: 15px;
 		padding: 15px;
-		text-align: center;
+		text-align: left;
+		padding-left: 90px;
 		box-sizing: border-box;
+		
 	}
 	
 	#menu-toggle label:hover {
@@ -630,6 +634,9 @@ header h1{
 	height: .5rem;
 
 }
+
+
+
 #intro {
 	display: grid;
 	grid-template-columns: 2fr 3fr;
@@ -643,9 +650,17 @@ header h1{
     margin-top: -35px;
 }
 
+
+#selects{
+margin-top: 10px;
+}
+
 nav a{
     background-color: white;
 }
+
+
+
 
 #intro div{
 	grid-column-start: 2;
@@ -653,13 +668,23 @@ nav a{
 	grid-row-end: 3;
 	column-gap: .5rem;
 }
+
+#nums{
+
+	margin-top:-95px;
+}
+
 #plan{
 	padding: 4rem;
+	padding-bottom: 95px;
 }
 #plan div{
 	display: flex;
 	justify-content: space-evenly;
 }
+
+
+
 
 #testimonials div{
 	padding: 4rem;
