@@ -623,13 +623,12 @@ h2{
 
 	}
 
-	footer{
-		background-color: var(--color-light-gray);
-		display:grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: 1fr;
-	}
+	footer {
+        display: flex;
+        justify-content: space-around;
+    }
 
+		
 	
 }
 
@@ -691,6 +690,9 @@ nav a{
 
 
 
+
+
+
 #intro div{
 	grid-column-start: 2;
 	grid-row-start: 1;
@@ -744,5 +746,10 @@ header p{
 }
 
 
+
+footer a:first-of-type {
+	position: relative;
+	left: 250px;
+}
 
 }
