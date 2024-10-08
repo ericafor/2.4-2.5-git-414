@@ -370,8 +370,16 @@ footer a{
 }
 
 
-/*Small Screen*/
-@media screen and (max-width: 756px){
+
+
+
+
+
+
+
+
+
+
 	
 	#menu-toggle {
 		position: relative;
@@ -381,14 +389,16 @@ footer a{
 		margin-right:-50px;
 		margin-left: 300px;
 	}
-	
+
+
 	#toggle {
 		display: block;
 		position: absolute;
 		cursor: pointer;
 		opacity: 0;
 	}
-	
+
+
 	#menu-toggle label {
 		background-color: var(--color-yellow);
 		display: block;
@@ -398,14 +408,16 @@ footer a{
 		text-align: center;
 		font-weight: 600;
 	}
-	
+
+
+
 	#menu-toggle label:hover {
 		background-color: var(--color-dark-gray);
 		color: white;	
 	}
 
-	
-	
+
+	/*This is the property that is making things disappear when it leaves the media query.*/
 	#menu-toggle ul {
 		display: none;
 		position: fixed;
@@ -413,7 +425,7 @@ footer a{
 		top: 40px;
 		left: 0;
 	}
-	
+
 	#menu-toggle ul li a {
 		display: block;
 		text-decoration: none;
@@ -424,6 +436,11 @@ footer a{
 		text-align: center;
 		font-weight: 600;
 	}
+
+
+	/*Small Screen*/ /*Take each of these out one by one and see if there are any major changes that you need to re-initilize when it comes to the medium and larger media queries.*/
+@media screen and (max-width: 756px){
+
 	
 	#menu-toggle ul li a:hover {
 		background-color: var(--color-light-gray);
@@ -542,6 +559,36 @@ h2{
 		justify-content: space-evenly;
 		
 	}
+
+
+	#menu-toggle ul li a {
+		display: block;
+		text-decoration: none;
+		background-color: white;
+		color: black;
+		text-align: center;
+		font-weight: 600;
+		border-bottom: none;
+	padding:30px;
+	}
+
+	#menu-toggle ul {
+		position: relative;
+		display: flex;
+		margin-top: -50px;
+	}
+
+
+	#menu-toggle {
+		position: relative;
+		text-transform: uppercase;
+		font-weight: bold;
+		margin-top:-10px;
+		margin-right:50px;
+		margin-left: 50px;
+	}
+
+
 
 	nav a{
 		text-decoration: none;
@@ -665,6 +712,14 @@ header h1{
 
 
 
+
+
+
+
+
+
+
+
 #intro {
 	display: grid;
 	grid-template-columns: 2fr 3fr;
@@ -689,10 +744,6 @@ nav a{
 
 
 
-
-
-
-
 #intro div{
 	grid-column-start: 2;
 	grid-row-start: 1;
@@ -713,6 +764,9 @@ nav a{
 	display: flex;
 	justify-content: space-evenly;
 }
+
+
+
 
 #testimonials div{
 	padding: 4rem;
