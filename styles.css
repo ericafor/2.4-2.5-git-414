@@ -75,6 +75,10 @@ table {
 	background-color: var(--color-white);
 }
 
+#mySubmit:hover{
+
+	cursor: pointer;
+}
 
 
 body{
