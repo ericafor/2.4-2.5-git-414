@@ -209,6 +209,9 @@ q:before {
   }
 
 
+
+
+
 #about{
 	background-color: var(--color-blue);
 	padding: 2rem;
@@ -238,6 +241,7 @@ text-align: center;
 }
 #contact{
 	padding: 2rem;
+
 }
 .radio-input input{
 	width: 6rem;
@@ -369,7 +373,8 @@ footer a{
 /*Small Screen*/
 @media screen and (max-width: 756px){
 	
-	
+
+
 	#menu-toggle {
 		display: block;
 		position: relative;
@@ -483,6 +488,24 @@ h2{
 	margin-top:70px;
 }
 	
+}
+
+
+/*Medium Screen*/
+
+@media screen and (max-width: 1300px){
+
+	#names{
+		padding-left: 28px;
+		padding-right: 28px;
+	  }
+	
+	  #selects{
+		padding-left: 27px;
+		padding-right: 27px;
+	  }
+
+
 }
 
 
