@@ -847,6 +847,19 @@ nav a{
 }
 
 
+
+#img-grid{
+ 
+margin-right: 50px;
+		}
+
+#intro h2, p{
+			
+	margin-left:50px;
+
+		}
+
+
 #plan div{
 	display: flex;
 	justify-content: space-evenly;
