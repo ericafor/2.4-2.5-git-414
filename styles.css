@@ -566,7 +566,9 @@ footer a{
 		text-align: center;
 		font-weight: 600;
 		border-bottom: none;
-		padding:30px;
+		padding:20px;
+		padding-top: 18px;
+		padding-bottom:18px;
 	}
 
 	#menu-toggle ul li a:hover {
@@ -576,7 +578,7 @@ footer a{
 	#menu-toggle ul {
 		position: relative;
 		display: flex;
-		margin-top: -50px;
+		margin-top: -70px;
 	}
 
 	#menu-toggle {
