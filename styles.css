@@ -398,9 +398,13 @@ footer a{
 		display: block;
 		cursor: pointer;
 		font-size: 20px;
-		padding: 25px;
+		padding: 20px;
+		padding-right: 50px;
+		padding-left: -10px;
 		text-align: center;
 		font-weight: 600;
+		margin-right: 24px;
+		margin-left: 10px;
 	}
 
 
@@ -452,6 +456,8 @@ footer a{
 		z-index: 1;
 		font-size: 17px;
 		font-weight: 600;
+		margin-top:8.75px;
+		margin-left:-20px;
 	}
 
 
